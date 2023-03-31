@@ -1,0 +1,80 @@
+steps:
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['/run-tests.sh']
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['bash', '-c', '/prepare-db.sh $$CLOUD_SQL_INSTANCE_CONNECTION_NAME $$CLOUD_SQL_PROXY_PORT']
+  env:
+  - 'CLOUD_SQL_INSTANCE_CONNECTION_NAME=kujakuja-ylabs-live:europe-west1:kujakuja-live-db'
+  - 'CLOUD_SQL_PROXY_PORT=5433'
+  - 'SQL_HOST=localhost'
+  - 'SQL_PORT=5433'
+  - 'SQL_USER=postgres'
+  - 'SQL_DATABASE=kujakuja'
+  - 'SQL_SSL=false'
+  - 'IDEAS_LANGUAGE=en'
+  secretEnv:
+  - 'SQL_PASSWORD'
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['mv', 'app.yaml.template', 'app.yaml']
+
+- name: 'eu.gcr.io/kujakuja-dev/envsubst'
+  args: ['app.yaml']
+  env:
+  - 'SQL_USER=postgres'
+  - 'SQL_DATABASE=kujakuja'
+  - 'SQL_SSL=false'
+  - 'CLOUD_SQL_INSTANCE_CONNECTION_NAME=kujakuja-ylabs-live:europe-west1:kujakuja-live-db'
+  - 'GCP_LOCATION=europe-west1'
+  - 'EMAIL_QUEUE_ID=email'
+  - 'SLACK_QUEUE_ID=slack'
+  - 'NLP_QUEUE_ID=nlp'
+  - 'TAGGING_QUEUE_ID=tagging'
+  - 'PUB_SUB_QUEUE_ID=data-aggregation-publish'
+  - 'DATA_AGGREGATION_PUB_SUB_TOPIC=projects/kujakuja-prod/topics/data-aggregation'
+  - 'SYND_QUEUE_ID=syndication'
+  - 'SYND_ENV_TYPE=live'
+  - 'SYND_TARGET_ENV=ylabs'
+  - 'SYND_SOURCE_ENV=~'
+  - 'CONTACT_FORM_TO_ADDRESS=yellow@kujakuja.com'
+  - 'CONTACT_FORM_FROM_ADDRESS=website@kujakuja.com'
+  - 'CONTACT_FORM_SUBJECT=New Contact Form Submission'
+  - 'DATAFIX_AUDIT_TO_ADDRESS=kujakuja@atomicdata.com;jcollery@kujakuja.com;cjoseph@kujakuja.com'
+  - 'DATAFIX_AUDIT_FROM_ADDRESS=website@kujakuja.com'
+  - 'DATAFIX_AUDIT_SUBJECT=Data Fix Applied'
+  - 'IDEAS_LANGUAGE=en'
+  - 'FRONTEND_LOGIN_REQUIRED=true'
+  - 'SLACK_CHANNEL_ID=C0136AC53PX'
+  - 'SLACK_ACTION_AMPLIFIER_CHANNEL_ID=CQ7DPBTCG'
+  secretEnv:
+  - 'SQL_PASSWORD'
+  - 'JWT_SECRET'
+  - 'SENDGRID_API_KEY'
+  - 'SLACK_TOKEN'
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['mv', 'cron.yaml.template', 'cron.yaml']
+
+- name: 'eu.gcr.io/kujakuja-dev/envsubst'
+  args: ['cron.yaml']
+  env:
+  - 'TIME=04:00'
+  - 'TIMEZONE=UTC'
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', '--promote', '--version=$TAG_NAME', '--project=kujakuja-ylabs-live']
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', 'cron.yaml', '--project=kujakuja-ylabs-live']
+
+secrets:
+  - kmsKeyName: projects/kujakuja-dev/locations/europe/keyRings/cloud-build/cryptoKeys/config-secrets
+    secretEnv:
+      SQL_PASSWORD: CiQAnpDxcRAkwQRFl1l87kAnHMOb2sX7z7F1Mkfrwv38P+dOzwMSOQD8O7eK/eXwEdzx8cc0pzDvb6v9PwQPalVaW3sh1x+tC+Vh8Q8Td2yy7Qi/48IgY2+bRdmMXtF61A==
+      JWT_SECRET: CiQAnpDxcf3vsTLb2TtZx9SbxI/jVju3JqBnaGM3OpZf1ApQizoSggEA/Du3ilK/8HJALH+W4luWnnsctT4J2mpbRI1Fbbfu/HoQB26pdUJ1NEYIP2zCgvBzaxrNVxVcKlz/2GmaXVzhmKHFrWS+DEjKf76IBTOAUFUefo76Ku5dO8of7Sj2w68uEL8yEWS3kwa5EKz5FEFM/L8JsMLOmS9PGlkI7gJNJAIh
+      SENDGRID_API_KEY: CiQAnpDxccJ530O9CMZgclzjNBOK0UxXSCdM21LtCuqSFDPWJgsSbgD8O7eKeb3mhUez6VjPAu3gKWCM1Zt3HOcCblFyKcMCPELsuKNJKdH0nuHWaa5/O7/1PZ3m8GMm6zbCb8gQAfQim+ltemKEZNTj4OBTfWxGusC4rUMClwfINZt04U0yg/2Bxqc45J1fQbC7I8lv
+      SLACK_TOKEN: CiQAnpDxceUV3FaVQ5DkRxmmzo/g8wl0s3aQdX+UQRWo8/Ms678SYAD8O7eK8U+bfIUjuukpWBaudU/yBzXiv/sHMWBB40ZAxpO47QdUK0PYmKIG6lz3qqg/Y3MQfaT4V3QoXPZr+fT75NbICQTUN1JOKLFw95dYpxDhwzr+/P7ZXiwUI9riqw==
+
+timeout: '1800s'

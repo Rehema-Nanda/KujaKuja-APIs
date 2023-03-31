@@ -1,0 +1,1 @@
+@call ..\import_env_data.bat ofda dev crc

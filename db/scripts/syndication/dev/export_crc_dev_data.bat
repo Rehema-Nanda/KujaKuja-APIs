@@ -1,0 +1,1 @@
+@call ..\export_env_data.bat crc dev ofda

@@ -1,0 +1,122 @@
+{
+  "creationTime": "1572363787503", 
+  "etag": "MiAFS8gJcEUDHUKhZLPCsg==", 
+  "id": "kujakuja-arc-dev:kujakuja.KK_Alight_Responses", 
+  "kind": "bigquery#table", 
+  "lastModifiedTime": "1572363787503", 
+  "location": "US", 
+  "numBytes": "303801037", 
+  "numLongTermBytes": "0", 
+  "numRows": "1209902", 
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE", 
+        "name": "location_name", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "service_point_name", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "service_type", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "satisfied", 
+        "type": "BOOLEAN"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "response_type", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "response_type_raw", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "satisfied_num", 
+        "type": "INTEGER"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "idea", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "response_lat", 
+        "type": "FLOAT"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "response_lng", 
+        "type": "FLOAT"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "response_point", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "lat_lon", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "created_at_utc", 
+        "type": "TIMESTAMP"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "uploaded_at_utc", 
+        "type": "TIMESTAMP"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "time_zone", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "created_at_tz", 
+        "type": "TIMESTAMP"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "uploaded_at_tz", 
+        "type": "TIMESTAMP"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "unique_id", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "user_id", 
+        "type": "INTEGER"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "is_starred", 
+        "type": "BOOLEAN"
+      }
+    ]
+  }, 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/kujakuja-arc-dev/datasets/kujakuja/tables/KK_Alight_Responses", 
+  "tableReference": {
+    "datasetId": "kujakuja", 
+    "projectId": "kujakuja-arc-dev", 
+    "tableId": "KK_Alight_Responses"
+  }, 
+  "type": "TABLE"
+}

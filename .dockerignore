@@ -1,0 +1,14 @@
+.git
+.gitignore
+.gcloudignore
+
+.env*
+
+node_modules/
+npm-debug.log
+
+# Jetbrains IDEs
+.idea/
+*.iml
+
+app.yaml

@@ -1,0 +1,1 @@
+bq --project=kujakuja-ofda-live load --replace --source_format=CSV kujakuja.KK_OFDA_CLI gs://kujakuja-ofda-live-export/ofda-live-responses.csv KK_Alight_Responses_Schema.list.json

@@ -1,0 +1,1 @@
+bq --project=kujakuja-arc-live load --replace --source_format=CSV kujakuja.KK_Alight_CLI gs://kujakuja-arc-live-export/alight-live-responses.csv KK_Alight_Responses_Schema.list.json

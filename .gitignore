@@ -1,0 +1,17 @@
+.env
+app.yaml
+
+node_modules/
+npm-debug.log
+
+.nvmrc
+
+# Jetbrains IDEs
+.idea/
+*.iml
+
+# Test output
+coverage
+
+# Windows
+desktop.ini

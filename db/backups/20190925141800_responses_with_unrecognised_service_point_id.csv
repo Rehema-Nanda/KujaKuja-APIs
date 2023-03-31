@@ -1,0 +1,51 @@
+"id","service_point_id","satisfied","idea","lat","lng","created_at","updated_at","phase2_id","uploaded_at","unique_id","user_id","response_type","is_starred","nlp_extract_adjectives_processed"
+45334,54,true,"More teaching on SGBV and HIV in the community",NULL,NULL,"2017-11-20 13:07:09.819","2017-11-21 06:45:12.649141",NULL,"2017-11-21 06:45:12.649051",NULL,NULL,"",false,true
+45335,54,true,"Do more adolescent awareness sessions",NULL,NULL,"2017-11-20 12:55:33.71","2017-11-21 06:45:13.793496",NULL,"2017-11-21 06:45:13.793414",NULL,NULL,"",false,true
+45336,54,true,"Engaging youth more in drama during holidays",NULL,NULL,"2017-11-20 12:51:33.602","2017-11-21 06:45:14.878349",NULL,"2017-11-21 06:45:14.878223",NULL,NULL,"",false,true
+45337,54,true,"Do more youth awareness sessions",NULL,NULL,"2017-11-20 13:03:46.839","2017-11-21 06:45:15.870496",NULL,"2017-11-21 06:45:15.870407",NULL,NULL,"",false,true
+45338,54,true,"Engage the youth in a income generating activities",NULL,NULL,"2017-11-20 13:05:26.745","2017-11-21 06:45:16.766994",NULL,"2017-11-21 06:45:16.766911",NULL,NULL,"",false,true
+45339,54,true,"Do more adolescent sessions in the community",NULL,NULL,"2017-11-20 12:56:40.956","2017-11-21 06:45:17.71518",NULL,"2017-11-21 06:45:17.715006",NULL,NULL,"",false,true
+45340,54,true,"Engage the youth in income generating activities",NULL,NULL,"2017-11-20 12:57:47.068","2017-11-21 06:45:18.702612",NULL,"2017-11-21 06:45:18.702503",NULL,NULL,"",false,true
+45341,54,true,"Do more awareness sessions",NULL,NULL,"2017-11-20 13:05:44.515","2017-11-21 06:45:19.738852",NULL,"2017-11-21 06:45:19.738747",NULL,NULL,"",false,true
+45342,54,true,NULL,NULL,NULL,"2017-11-20 13:04:49.662","2017-11-21 06:45:20.775783",NULL,"2017-11-21 06:45:20.775649",NULL,NULL,"",false,false
+45343,54,true,"Do more youth sessions about SGBV in the community",NULL,NULL,"2017-11-20 13:00:07.121","2017-11-21 06:45:21.736576",NULL,"2017-11-21 06:45:21.736494",NULL,NULL,"",false,true
+45344,54,true,"Do more adolescent awareness sessions",NULL,NULL,"2017-11-20 13:04:35.73","2017-11-21 06:45:22.901041",NULL,"2017-11-21 06:45:22.900957",NULL,NULL,"",false,true
+45345,54,true,"Do adolescent awareness sessions at least once in a month",NULL,NULL,"2017-11-20 12:52:46.863","2017-11-21 06:45:23.890513",NULL,"2017-11-21 06:45:23.890409",NULL,NULL,"",false,true
+45346,54,true,"Do more adolescent meeting atkeast one in a week",NULL,NULL,"2017-11-20 12:49:47.127","2017-11-21 06:45:24.874759",NULL,"2017-11-21 06:45:24.874674",NULL,NULL,"",false,true
+45347,54,false,"Do more youth awareness sessions about HIV prevention in the community",NULL,NULL,"2017-11-20 13:03:07.055","2017-11-21 06:45:25.878858",NULL,"2017-11-21 06:45:25.878217",NULL,NULL,"",false,true
+45531,54,true,"Do teacher trainings about SGBV",NULL,NULL,"2017-11-21 10:08:56.502","2017-11-21 10:27:42.449323",NULL,"2017-11-21 10:27:42.449038",NULL,NULL,"",false,true
+45532,54,true,"Do motivation of students with refreshments",NULL,NULL,"2017-11-21 10:08:18.424","2017-11-21 10:27:43.744548",NULL,"2017-11-21 10:27:43.744355",NULL,NULL,"",false,true
+45533,54,true,"Engage the school students in dance and drama",NULL,NULL,"2017-11-21 10:02:06.042","2017-11-21 10:27:44.77044",NULL,"2017-11-21 10:27:44.770267",NULL,NULL,"",false,true
+45534,54,true,"Provide sodas during meeting or awareness sessions",NULL,NULL,"2017-11-21 09:57:17.259","2017-11-21 10:27:45.949019",NULL,"2017-11-21 10:27:45.948803",NULL,NULL,"",false,true
+45535,54,true,"Do more teaching on SGBV",NULL,NULL,"2017-11-21 09:53:44.583","2017-11-21 10:27:47.074923",NULL,"2017-11-21 10:27:47.074663",NULL,NULL,"",false,true
+45536,54,true,"Have regular visits in schools like once in a month",NULL,NULL,"2017-11-21 10:07:45.251","2017-11-21 10:27:48.151793",NULL,"2017-11-21 10:27:48.151633",NULL,NULL,"",false,true
+45537,54,true,"Do more sessions on how the youth should handle themselves",NULL,NULL,"2017-11-21 10:01:17.531","2017-11-21 10:27:49.051247",NULL,"2017-11-21 10:27:49.05113",NULL,NULL,"",false,true
+45538,54,true,"Give more time to learns to ask questions",NULL,NULL,"2017-11-21 10:09:31.947","2017-11-21 10:27:49.949661",NULL,"2017-11-21 10:27:49.949515",NULL,NULL,"",false,true
+45539,54,true,"Do more awareness sessions about SGBV",NULL,NULL,"2017-11-21 09:52:51.027","2017-11-21 10:27:50.940988",NULL,"2017-11-21 10:27:50.940837",NULL,NULL,"",false,true
+45540,54,true,"Do more awareness sessions in sshoools about SGBV",NULL,NULL,"2017-11-21 09:59:44.174","2017-11-21 10:27:51.881596",NULL,"2017-11-21 10:27:51.881382",NULL,NULL,"",false,true
+45541,54,true,"Do more awareness sessions in schools at least once in a week",NULL,NULL,"2017-11-21 10:05:16.188","2017-11-21 10:27:52.781874",NULL,"2017-11-21 10:27:52.781791",NULL,NULL,"",false,true
+45542,54,true,"Provide sodas during sessions",NULL,NULL,"2017-11-21 10:00:26.382","2017-11-21 10:27:53.768348",NULL,"2017-11-21 10:27:53.768229",NULL,NULL,"",false,true
+45543,54,true,"Do more teaching on how the youth should handle themselves",NULL,NULL,"2017-11-21 09:55:44.698","2017-11-21 10:27:54.763227",NULL,"2017-11-21 10:27:54.763103",NULL,NULL,"",false,true
+45544,54,true,"Provide refreshment's for motivation during awareness sessions",NULL,NULL,"2017-11-21 10:06:25.296","2017-11-21 10:27:55.760274",NULL,"2017-11-21 10:27:55.76017",NULL,NULL,"",false,true
+45545,54,true,"Do more awareness sessions in schools at least twice in a month",NULL,NULL,"2017-11-21 09:58:49.732","2017-11-21 10:27:56.651767",NULL,"2017-11-21 10:27:56.651664",NULL,NULL,"",false,true
+45546,54,true,"Do more awareness sessions in schools",NULL,NULL,"2017-11-21 09:57:51.192","2017-11-21 10:27:57.636427",NULL,"2017-11-21 10:27:57.636345",NULL,NULL,"",false,true
+45547,54,true,"Do more counselling sessions",NULL,NULL,"2017-11-21 09:54:48.578","2017-11-21 10:27:58.583317",NULL,"2017-11-21 10:27:58.583228",NULL,NULL,"",false,true
+45548,54,true,"Provide refreshments during the sessions",NULL,NULL,"2017-11-21 09:56:33.75","2017-11-21 10:27:59.582986",NULL,"2017-11-21 10:27:59.582772",NULL,NULL,"",false,true
+45549,54,true,"Provide T shirts to teachers",NULL,NULL,"2017-11-21 10:10:39.29","2017-11-21 10:28:00.480096",NULL,"2017-11-21 10:28:00.480003",NULL,NULL,"",false,true
+46669,53,true,"Amazing",NULL,NULL,"2017-11-20 09:21:10.058","2017-11-23 10:19:00.341918",NULL,"2017-11-23 10:19:00.341802",NULL,NULL,"",false,true
+48401,54,true,"Support the youth with start up capital for businesses",-0.8405982,30.780843,"2017-11-21 12:58:51.468","2017-11-28 07:45:40.255626",NULL,"2017-11-28 07:45:40.255484",NULL,NULL,"",false,true
+48402,54,true,"Do more youth awareness sessions in the community",-0.8405982,30.780843,"2017-11-21 12:53:46.897","2017-11-28 07:45:41.374593",NULL,"2017-11-28 07:45:41.374435",NULL,NULL,"",false,true
+48403,54,true,"Support the youth with start up capital for businesses",-0.8405982,30.780843,"2017-11-21 12:59:19.707","2017-11-28 07:45:42.58909",NULL,"2017-11-28 07:45:42.588916",NULL,NULL,"",false,true
+48404,54,true,"Engage the youth in income generating activities",NULL,NULL,"2017-11-21 13:02:05.39","2017-11-28 07:45:43.684904",NULL,"2017-11-28 07:45:43.678346",NULL,NULL,"",false,true
+48405,54,true,"Engage the youth in income generating activities like tailoring, saloon",NULL,NULL,"2017-11-21 13:01:37.581","2017-11-28 07:45:45.475236",NULL,"2017-11-28 07:45:45.474605",NULL,NULL,"",false,true
+48406,54,true,"Engage the youth in income generating activities like tailoring",NULL,NULL,"2017-11-21 13:02:57.678","2017-11-28 07:45:51.335994",NULL,"2017-11-28 07:45:51.335849",NULL,NULL,"",false,true
+48407,54,true,"Engage the youth in income generating activities like tailorin",-0.8405982,30.780843,"2017-11-21 12:54:38.79","2017-11-28 07:45:55.339171",NULL,"2017-11-28 07:45:55.339015",NULL,NULL,"",false,true
+48408,54,true,"Support the youth with balls and start up capital for saving groups",-0.8405982,30.780843,"2017-11-21 12:57:56.794","2017-11-28 07:45:56.362452",NULL,"2017-11-28 07:45:56.361977",NULL,NULL,"",false,true
+48409,54,true,"Engage the youth in income generating activities",NULL,NULL,"2017-11-21 13:02:32.508","2017-11-28 07:46:03.834778",NULL,"2017-11-28 07:46:03.834578",NULL,NULL,"",false,true
+48410,54,true,"Employ interpreters for better communication in languages",-0.8405982,30.780843,"2017-11-21 12:47:05.271","2017-11-28 07:46:22.992757",NULL,"2017-11-28 07:46:22.992592",NULL,NULL,"",false,true
+48411,54,true,NULL,-0.9386671,30.7523848,"2017-11-22 06:42:27.183","2017-11-28 07:46:23.873061",NULL,"2017-11-28 07:46:23.872935",NULL,NULL,"",false,false
+48412,54,true,"Engage the youth in income generating activities",-0.8405982,30.780843,"2017-11-21 12:48:37.142","2017-11-28 07:46:25.156385",NULL,"2017-11-28 07:46:25.156187",NULL,NULL,"",false,true
+48413,54,true,"Engage the youth in income generating activities and drama",-0.8405982,30.780843,"2017-11-21 12:52:39.846","2017-11-28 07:46:25.885935",NULL,"2017-11-28 07:46:25.885276",NULL,NULL,"",false,true
+48414,54,true,"Engage the youth in income generating activities like tailoring , driving",NULL,NULL,"2017-11-21 13:00:10.178","2017-11-28 07:46:26.628945",NULL,"2017-11-28 07:46:26.6288",NULL,NULL,"",false,true
+48415,54,true,"Engage the youth in income generating activities like tailoring",-0.8405982,30.780843,"2017-11-21 12:55:26.414","2017-11-28 07:46:27.198812",NULL,"2017-11-28 07:46:27.198657",NULL,NULL,"",false,true
+48416,54,true,"Engage the youth in income generating activities like tailoring",-0.8405982,30.780843,"2017-11-21 12:56:07.917","2017-11-28 07:46:27.955521",NULL,"2017-11-28 07:46:27.955171",NULL,NULL,"",false,true

@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: kujakuja-api-server
+spec:
+  type: LoadBalancer
+  selector:
+    app: kujakuja-api-server
+  ports:
+  - port: 80
+    targetPort: 8080

@@ -1,0 +1,3 @@
+@call import_ofda_live_data_from_adra.bat
+@call import_ofda_live_data_from_crc.bat
+@call import_ofda_live_data_from_nrc.bat

@@ -1,0 +1,6 @@
+cron:
+  - description: "Daily Data Syndication"
+    url: /tasks/syndication
+    target: api
+    schedule: every day $TIME
+    timezone: $TIMEZONE

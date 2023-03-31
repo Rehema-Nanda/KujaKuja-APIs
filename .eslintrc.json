@@ -1,0 +1,48 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true
+    },
+    "ecmaVersion": 2018
+  },
+  "reportUnusedDisableDirectives": true,
+  "root": true,
+  "rules": {
+    "arrow-body-style": ["warn", "always"],
+    "block-spacing": ["warn", "always"],
+    "brace-style": ["warn", "stroustrup"],
+    "curly": ["error", "all"],
+    "indent": ["warn", 4, {
+      "ArrayExpression": "first",
+      "CallExpression": { "arguments": "first" },
+      "FunctionDeclaration": { "parameters": "first" },
+      "FunctionExpression": { "parameters": "first" },
+      "ImportDeclaration": "first",
+      "ObjectExpression": "first",
+      "SwitchCase": 1
+    }],
+    "max-len": ["warn", {
+      "code": 120,
+      "ignoreStrings": true,
+      "ignoreTrailingComments": true,
+      "ignoreUrls": true
+    }],
+    "no-else-return": ["warn", { "allowElseIf": true }],
+    "no-plusplus": ["warn", { "allowForLoopAfterthoughts": true }],
+    "object-shorthand": ["warn", "consistent"],
+    "quotes": ["warn", "double", {
+      "allowTemplateLiterals": true,
+      "avoidEscape": true
+    }],
+    "semi": ["error", "always"],
+    "spaced-comment": ["warn", "always", { "exceptions": ["/"] }]
+  }
+}
